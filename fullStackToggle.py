@@ -7,7 +7,7 @@ import json
 
 # Be sure to change these to match your env
 # Token requires readEntinties and writeConfig
-DYNATRACE_BASE_URL = "https://vld55751.sprint.dynatracelabs.com/api"
+DYNATRACE_BASE_URL = "https://YOUR-DT-ENV.com/api"
 DYNATRACE_API_TOKEN = "INSERT API TOKEN"
 HEADERS = {
     "Authorization": f"Api-Token {DYNATRACE_API_TOKEN}",
